@@ -1,0 +1,59 @@
+.app {
+  background-color: #fafafa;
+}
+
+.app__header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  object-fit: contain;
+  padding: 2rem 1rem 1rem;
+  border-bottom: 1px solid lightgray;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.app__header .MuiButton-root {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.app__headerImage {
+  object-fit: contain;
+}
+
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__signup .MuiInputBase-input {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.app__signup .MuiButtonBase-root {
+  font-size: 1.6rem;
+  margin-top: 2rem;
+}
+
+.app__signup .MuiButtonBase-root:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.app__posts {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.app__postsRight {
+  margin-left: 2rem;
+}
+
+.app__imageUpload {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  text-align: center;
+}
